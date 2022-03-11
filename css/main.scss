@@ -90,11 +90,11 @@ body {
         color: #ededee;
       }
       &:nth-of-type(2) {
-        background-color: rgb(38, 38, 38);
+        background-color: #202023;
         color: #ededee;
       }
       &:nth-of-type(3) {
-        background-color: rgb(48, 48, 48);
+        background-color: #202023;
         color: #ededee;
       }
 
@@ -118,6 +118,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-right: 10em;
 }
 .namePic {
   display: flex;
@@ -126,6 +127,10 @@ body {
 }
 h2 {
   margin: 0%;
+  color: #f147e2;
+  font-family: "M PLUS 1c", sans-serif;
+  font-size: 2em;
+  margin-bottom: 1em;
 }
 
 .aboutMeTitle {
@@ -136,11 +141,42 @@ h2 {
   width: 40vw;
 }
 
+.headlinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.headshot {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  // background-color: #f147e2;
+}
+.myLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  // background-color: #f147e2;
+}
+.linkBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // background-color: #f147e2;
+
+  margin: 3%;
+}
+
 // SECOND PAGE-------------------------------
 
 #pageTwo {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .projects {
@@ -150,17 +186,20 @@ h2 {
 .projectOne {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  background-color: #f147e2;
-  border: 20px #32fdff;
-  padding: auto;
-  width: 600px;
-  height: 400px;
+  // background-color: #f147e2;
+  // border: 20px #32fdff;
+  padding: 3em;
+  width: 500px;
+  height: 800px;
+  border: 5px solid #ededee;
+  // border-radius: 10%;
+  overflow: hidden;
 }
 .linksToProject {
   display: flex;
-  text-align: center;
+
   flex-direction: row;
 
   ul {
@@ -168,11 +207,13 @@ h2 {
     margin: 0;
     padding: 0;
     list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
   }
 
   li {
     margin-bottom: 1em;
-    margin-left: 4em;
+    margin-left: 1em;
   }
 
   a {
@@ -209,7 +250,46 @@ h2 {
     flex-direction: column;
   }
   body {
-    height: 1000vh;
+    height: 100vh;
     flex-direction: column;
   }
+}
+
+//THIRD PAGE -----------------------------------
+.languages {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.libraries {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.dbmang {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.os {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.tools {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.skillBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 3%;
+}
+
+.skills {
+  justify-content: space-around;
 }
