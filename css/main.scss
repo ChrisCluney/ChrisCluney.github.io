@@ -1,0 +1,215 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-family: "M PLUS 1p", sans-serif;
+
+  h3 {
+    font-family: "M PLUS 1c", sans-serif;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+  }
+  .navigation {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    height: 5vh;
+    overflow-y: scroll;
+    background-color: #202023;
+    position: fixed;
+    z-index: 999;
+  }
+  nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  nav li {
+    margin-bottom: 1em;
+    margin-left: 4em;
+  }
+
+  nav a {
+    color: #32fdff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    position: relative;
+  }
+
+  nav a:hover {
+    color: white;
+  }
+  nav a::before {
+    content: "";
+    display: block;
+    height: 5px;
+    background: #f147e2;
+    position: absolute;
+    top: -0.75em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transform-origin: right;
+    transition: transform ease-in-out 250ms;
+  }
+
+  nav a:hover::before {
+    transform: scale(1, 1);
+  }
+  .container {
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+    section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+      scroll-snap-align: start;
+
+      &:nth-of-type(1) {
+        background-color: #202023;
+        color: #ededee;
+      }
+      &:nth-of-type(2) {
+        background-color: rgb(38, 38, 38);
+        color: #ededee;
+      }
+      &:nth-of-type(3) {
+        background-color: rgb(48, 48, 48);
+        color: #ededee;
+      }
+
+      h1 {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 4em;
+        margin: 0%;
+      }
+    }
+  }
+}
+// FIRST PAGE--------------------------------
+#pageOne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.namePic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+h2 {
+  margin: 0%;
+}
+
+.aboutMeTitle {
+  margin-top: 10em;
+}
+
+.aboutMeSection {
+  width: 40vw;
+}
+
+// SECOND PAGE-------------------------------
+
+#pageTwo {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects {
+  display: flex;
+}
+
+.projectOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f147e2;
+  border: 20px #32fdff;
+  padding: auto;
+  width: 600px;
+  height: 400px;
+}
+.linksToProject {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+
+  ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    margin-bottom: 1em;
+    margin-left: 4em;
+  }
+
+  a {
+    color: #32fdff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    position: relative;
+  }
+}
+
+.vidAndInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 860px) {
+  .container {
+    section {
+      width: auto;
+      height: auto;
+      overflow-y: auto;
+    }
+  }
+
+  .pageThree {
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  .pageTwo {
+    height: 100vh;
+    flex-direction: column;
+  }
+  body {
+    height: 1000vh;
+    flex-direction: column;
+  }
+}
