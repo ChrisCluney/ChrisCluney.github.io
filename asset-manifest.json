@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.6e3332cf.css",
+    "main.js": "/react-gh-pages/static/js/main.6e23102e.js",
+    "static/media/macrosum.png": "/react-gh-pages/static/media/macrosum.efb382b466f5ec018210.png",
+    "static/media/cryptoimg.png": "/react-gh-pages/static/media/cryptoimg.790f7fdea82eb9b7c424.png",
+    "static/media/ChrisCluney_resume.pdf": "/react-gh-pages/static/media/ChrisCluney_resume.fd1e5174d004a931dbdd.pdf",
+    "static/media/react.png": "/react-gh-pages/static/media/react.41126e6cf0adde3888f5.png",
+    "static/media/github.png": "/react-gh-pages/static/media/github.6e4c02d5b1bbeeabc1e1.png",
+    "static/media/html5.png": "/react-gh-pages/static/media/html5.ef25f4b9c5fa52fbe8a9.png",
+    "static/media/css.png": "/react-gh-pages/static/media/css.9459a94cd76efa1834fa.png",
+    "static/media/firebasec.png": "/react-gh-pages/static/media/firebasec.dbeacef5a0cba4172ef9.png",
+    "static/media/python.png": "/react-gh-pages/static/media/python.c3f18ee789fea7371ba1.png",
+    "static/media/git.png": "/react-gh-pages/static/media/git.ae7620d4130caf42018e.png",
+    "static/media/javascript.png": "/react-gh-pages/static/media/javascript.e29c4a91ac110c03f73c.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.6e3332cf.css.map": "/react-gh-pages/static/css/main.6e3332cf.css.map",
+    "main.6e23102e.js.map": "/react-gh-pages/static/js/main.6e23102e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e3332cf.css",
+    "static/js/main.6e23102e.js"
+  ]
+}
