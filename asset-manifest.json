@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/ChrisCluney.github.io/static/css/main.6e3332cf.css",
-    "main.js": "/ChrisCluney.github.io/static/js/main.abb5fd79.js",
-    "static/media/macrosum.png": "/ChrisCluney.github.io/static/media/macrosum.efb382b466f5ec018210.png",
-    "static/media/cryptoimg.png": "/ChrisCluney.github.io/static/media/cryptoimg.790f7fdea82eb9b7c424.png",
-    "static/media/ChrisCluney_resume.pdf": "/ChrisCluney.github.io/static/media/ChrisCluney_resume.fd1e5174d004a931dbdd.pdf",
-    "static/media/react.png": "/ChrisCluney.github.io/static/media/react.41126e6cf0adde3888f5.png",
-    "static/media/github.png": "/ChrisCluney.github.io/static/media/github.6e4c02d5b1bbeeabc1e1.png",
-    "static/media/html5.png": "/ChrisCluney.github.io/static/media/html5.ef25f4b9c5fa52fbe8a9.png",
-    "static/media/css.png": "/ChrisCluney.github.io/static/media/css.9459a94cd76efa1834fa.png",
-    "static/media/firebasec.png": "/ChrisCluney.github.io/static/media/firebasec.dbeacef5a0cba4172ef9.png",
-    "static/media/python.png": "/ChrisCluney.github.io/static/media/python.c3f18ee789fea7371ba1.png",
-    "static/media/git.png": "/ChrisCluney.github.io/static/media/git.ae7620d4130caf42018e.png",
-    "static/media/javascript.png": "/ChrisCluney.github.io/static/media/javascript.e29c4a91ac110c03f73c.png",
-    "index.html": "/ChrisCluney.github.io/index.html",
-    "main.6e3332cf.css.map": "/ChrisCluney.github.io/static/css/main.6e3332cf.css.map",
-    "main.abb5fd79.js.map": "/ChrisCluney.github.io/static/js/main.abb5fd79.js.map"
+    "main.css": "/static/css/main.6e3332cf.css",
+    "main.js": "/static/js/main.1b627ff2.js",
+    "static/media/macrosum.png": "/static/media/macrosum.efb382b466f5ec018210.png",
+    "static/media/cryptoimg.png": "/static/media/cryptoimg.790f7fdea82eb9b7c424.png",
+    "static/media/ChrisCluney_resume.pdf": "/static/media/ChrisCluney_resume.fd1e5174d004a931dbdd.pdf",
+    "static/media/react.png": "/static/media/react.41126e6cf0adde3888f5.png",
+    "static/media/github.png": "/static/media/github.6e4c02d5b1bbeeabc1e1.png",
+    "static/media/html5.png": "/static/media/html5.ef25f4b9c5fa52fbe8a9.png",
+    "static/media/css.png": "/static/media/css.9459a94cd76efa1834fa.png",
+    "static/media/firebasec.png": "/static/media/firebasec.dbeacef5a0cba4172ef9.png",
+    "static/media/python.png": "/static/media/python.c3f18ee789fea7371ba1.png",
+    "static/media/git.png": "/static/media/git.ae7620d4130caf42018e.png",
+    "static/media/javascript.png": "/static/media/javascript.e29c4a91ac110c03f73c.png",
+    "index.html": "/index.html",
+    "main.6e3332cf.css.map": "/static/css/main.6e3332cf.css.map",
+    "main.1b627ff2.js.map": "/static/js/main.1b627ff2.js.map"
   },
   "entrypoints": [
     "static/css/main.6e3332cf.css",
-    "static/js/main.abb5fd79.js"
+    "static/js/main.1b627ff2.js"
   ]
 }
